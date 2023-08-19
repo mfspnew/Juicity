@@ -24,7 +24,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 
 
 
-.
+- دانلود Plugin برای Nekobox:
+- (Download Juicity plugin](https://github.com/MatsuriDayo/plugins/releases)
+
 
 
 
