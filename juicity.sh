@@ -99,7 +99,7 @@ sudo systemctl restart juicity
 
 
 # Prompt user for choice
-read -p "Select an option (1 or 2): 1) Irancell--> IPV6   2) Hamrah-Aval--> IPV4: " choice
+read -p "Select an option (1 or 2): 1) Irancell--> IPV6   2) Hamrah-Aval--> IPV4:   , Default (1)" choice
 
 case $choice in
     1)
@@ -128,6 +128,21 @@ case $choice in
         echo "$SHARE_LINK_IPV4" > link.txt  #save
         ;;
     *)
-        echo "Invalid choice. Please select 1 or 2."
+        # Default choice
+        choice=1
+        # Get IPv6 address
+        IPv6_ADDRESS=$(ip -6 addr show dev eth0 | awk '/inet6 .*global/{print $2}' | cut -d '/' -f 1)
+
+        # Original share link
+        SHARE_LINK_IPV4=$(/root/juicity/./juicity-server generate-sharelink -c /root/juicity/config_server.json)
+
+        # Replace IPv4 with IPv6 in the share link
+        SHARE_LINK_IPV6=$(echo "$SHARE_LINK_IPV4" | sed "s/[0-9]\+\(\.[0-9]\+\)\{3\}/[$IPv6_ADDRESS]/g")
+
+        echo "----------------------------------------------------------"
+        echo ""
+        echo "Link with IPv6: -->  $SHARE_LINK_IPV6"
+        echo "----------------------------------------------------------"
+        echo "$SHARE_LINK_IPV6" > link.txt  #save
         ;;
 esac
