@@ -41,9 +41,14 @@ find /root/juicity ! -name 'juicity-server' -type f -exec rm -f {} +
 chmod +x /usr/local/bin/juicity-server
 
 # Read user input for configuration
-read -p "Enter listen port (or press enter to randomize): " PORT
+read -p "Enter listen port (or press enter to random port): " PORT
 [[ -z "$PORT" ]] && PORT=$((RANDOM % 65500 + 1))
-read -p "Enter password: " PASSWORD
+
+read -p "Enter password (or press enter for a random 6-character password): " PASSWORD
+
+if [[ -z "$PASSWORD" ]]; then
+  PASSWORD=$(tr -dc 'a-zA-Z0-9' < /dev/urandom | fold -w 6 | head -n 1)
+fi
 UUID=$(uuidgen)
 
 # Generate private key and certificate
