@@ -13,6 +13,7 @@ print_with_delay() {
 }
 
 # Introduction animation
+echo ""
 print_with_delay "Welcome To Juicity --->Created by :Peyman --> https://github.com/Ptechgithub" 0.02
 echo -e "\n"
 
@@ -99,7 +100,7 @@ sudo systemctl restart juicity
 
 
 # Prompt user for choice
-read -p "Select an option (1 or 2): 1) Irancell--> IPV6   2) Hamrah-Aval--> IPV4:   , Default (1)" choice
+read -p "Select an option (1 or 2): 1) Irancell--> IPV6   2) Hamrah-Aval--> IPV4 , Default (1): " choice
 
 case $choice in
     1)
