@@ -19,9 +19,15 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 ## جهت دریافت اموزش به کانال زیر مراجعه کنید:
 [Telegram: P_Tech2024](https://t.me/P_tech2024)
 
+.
 
+
+
+
+.
 
 
 
 Thanks:
+.
 [deathline94](https://github.com/deathline94/Juicity-Installer) & and [Juicity](https://github.com/juicity/juicity)
