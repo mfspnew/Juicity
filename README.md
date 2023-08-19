@@ -29,5 +29,5 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 
 
 Thanks:
-.
-[deathline94](https://github.com/deathline94/Juicity-Installer) & and [Juicity](https://github.com/juicity/juicity)
+
+- [deathline94](https://github.com/deathline94/Juicity-Installer) & and [Juicity](https://github.com/juicity/juicity)
