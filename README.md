@@ -29,6 +29,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 - [Download Juicity plugin](https://github.com/MatsuriDayo/plugins/releases)
 
 بعد از نصب پلاگین و اضافه کردن کانفیگ در Nekobox تیک allowInsecure رو باید فعال کنید
+![1](https://raw.githubusercontent.com/Ptechgithub/Juicity/main/media/1.jpg)
+
+
 
 
 Thanks:
