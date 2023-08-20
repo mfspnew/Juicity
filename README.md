@@ -14,7 +14,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 
 ```
 
-
+مشاهده کانفیگ ساخته شده:
+``cat link.txt
+``
 
 
 ## جهت دریافت اموزش به کانال زیر مراجعه کنید:
