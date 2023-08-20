@@ -30,6 +30,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 
 بعد از نصب پلاگین و اضافه کردن کانفیگ در Nekobox تیک allowInsecure رو باید فعال کنید.
 .👇
+
 ![1](https://raw.githubusercontent.com/Ptechgithub/Juicity/main/media/1.jpg)
 
 
