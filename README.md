@@ -4,7 +4,8 @@ Juicity installer
 
 ## - You need Ipv6 for run
 
-## برای نصب ، سرور شما باید ipv6 فعال داشته باشد.
+## برای نصب ، سرور شما باید ipv6 فعال داشته باشد. irancell رو انتخاب کنید.
+ا
 
 # install
 
