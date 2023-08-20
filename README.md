@@ -25,7 +25,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Ptechgithub/Juicity/main/jui
 
 
 
-- دانلود Plugin برای Nekobox:
+## دانلود Plugin Juicity برای Nekobox و Matsuri :
 - [Download Juicity plugin](https://github.com/MatsuriDayo/plugins/releases)
 
 بعد از نصب پلاگین و اضافه کردن کانفیگ در Nekobox تیک allowInsecure رو باید فعال کنید.
